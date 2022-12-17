@@ -1,8 +1,10 @@
 import "phaser";
 
-class PlayGame extends Phaser.Scene {
+class Main extends Phaser.Scene {
+	public image: Phaser.GameObjects.Image;
+
 	constructor() {
-		super("PlayGame");
+		super("main");
 	}
 
 	preload() {
@@ -20,7 +22,7 @@ const config = {
 	width: 800,
 	height: 600,
 	parnet: "thegame",
-	scene: PlayGame,
+	scene: Main,
 };
 
 new Phaser.Game(config);

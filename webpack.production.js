@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
 	entry: {
@@ -21,14 +22,18 @@ module.exports = {
 		filename: "index.js",
 		path: path.resolve(__dirname, "dist"),
 	},
-	mode: "development",
-	devtool: "inline-source-map",
-	devServer: {
-		static: "./src/",
-	},
+	mode: "production",
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: "./src/index.ejs",
+		}),
+		new CopyWebpackPlugin({
+			patterns: [
+				{
+					from: "./src/assets",
+					to: "./assets",
+				},
+			],
 		}),
 	],
 };
