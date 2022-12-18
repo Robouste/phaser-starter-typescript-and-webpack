@@ -5,3 +5,4 @@ export declare type PhysicsGroup = Phaser.Physics.Arcade.Group;
 export declare type ArcadeSprite = Phaser.Physics.Arcade.Sprite;
 export declare type BaseSound = Phaser.Sound.BaseSound;
 export declare type GameText = Phaser.GameObjects.Text;
+export declare type Gameconfig = Phaser.Types.Core.GameConfig;
