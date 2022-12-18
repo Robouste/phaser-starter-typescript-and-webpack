@@ -5,5 +5,7 @@ export namespace Keys {
 
 	export enum Animations {}
 
-	export enum Sfx {}
+	export enum Audio {}
+
+	export enum Scenes {}
 }
