@@ -5,13 +5,13 @@ export class Game extends Phaser.Scene {
 		super("game");
 	}
 
-	preload() {
+	public preload(): void {
 		this.load.image("logo", "assets/phaser3-logo.png");
 	}
-	create() {
+	public create(): void {
 		this.image = this.add.image(400, 300, "logo");
 	}
-	update() {
+	public update(): void {
 		this.image.rotation += 0.01;
 	}
 }
