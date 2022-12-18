@@ -2,7 +2,7 @@
 
 ## Development
 
-run `npm run serve`  
+run `npm start` or `npm run start-o` to open the browser  
 open `http://localhost:8080`
 
 ## Build
