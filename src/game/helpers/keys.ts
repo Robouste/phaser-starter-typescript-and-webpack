@@ -14,6 +14,8 @@ export namespace Keys {
 
 	export enum Tiles {}
 
+	export enum Atlases {}
+
 	export enum KeydownEvents {
 		Space = "keydown-SPACE",
 		ArrowDown = "keydown-DOWN",
