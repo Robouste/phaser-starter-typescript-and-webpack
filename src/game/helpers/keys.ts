@@ -11,4 +11,21 @@ export namespace Keys {
 		Preload = "preload",
 		Game = "game",
 	}
+
+	export enum Tiles {}
+
+	export enum KeydownEvents {
+		Space = "keydown-SPACE",
+		ArrowDown = "keydown-DOWN",
+		ArrowUp = "keydown-UP",
+		P = "keydown-P",
+	}
+
+	export enum KeyupEvents {
+		ArrowDown = "keyup-DOWN",
+	}
+
+	export enum MouseEvents {
+		PointerDown = "pointerdown",
+	}
 }
