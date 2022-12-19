@@ -1,12 +1,12 @@
 import "phaser";
-import { Game } from "./game/game";
 import { Gameconfig } from "./game/helpers/types";
+import { GameScene } from "./game/scenes/game.scene";
 
 const config: Gameconfig = {
 	width: 800,
 	height: 600,
 	parent: "thegame",
-	scene: Game,
+	scene: GameScene,
 };
 
 new Phaser.Game(config);

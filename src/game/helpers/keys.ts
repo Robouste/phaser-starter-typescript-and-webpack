@@ -7,5 +7,8 @@ export namespace Keys {
 
 	export enum Audio {}
 
-	export enum Scenes {}
+	export enum Scenes {
+		Preload = "preload",
+		Game = "game",
+	}
 }

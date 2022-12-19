@@ -1,8 +1,10 @@
-export class Game extends Phaser.Scene {
+import { Keys } from "../helpers/keys";
+
+export class GameScene extends Phaser.Scene {
 	public image: Phaser.GameObjects.Image;
 
 	constructor() {
-		super("game");
+		super(Keys.Scenes.Game);
 	}
 
 	public preload(): void {
