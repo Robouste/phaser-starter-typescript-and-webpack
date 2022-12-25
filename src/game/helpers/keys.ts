@@ -1,5 +1,7 @@
 export namespace Keys {
-	export enum Images {}
+	export enum Images {
+		Logo = "logo",
+	}
 
 	export enum Sprites {}
 
@@ -15,6 +17,8 @@ export namespace Keys {
 	export enum Tiles {}
 
 	export enum Atlases {}
+
+	export enum Layers {}
 
 	export enum KeydownEvents {
 		Space = "keydown-SPACE",
