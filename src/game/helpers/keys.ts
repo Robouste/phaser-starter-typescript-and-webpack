@@ -1,24 +1,16 @@
 export namespace Keys {
-	export enum Images {
-		Logo = "logo",
-	}
-
-	export enum Sprites {}
-
 	export enum Animations {}
-
-	export enum Audio {}
-
-	export enum Scenes {
-		Preload = "preload",
-		Game = "game",
-	}
-
-	export enum Tiles {}
 
 	export enum Atlases {}
 
-	export enum Layers {}
+	export enum Audio {}
+
+	export enum Fonts {
+		Arcade = "Arcade",
+		AtariClassic = "AtariClassic",
+	}
+
+	export enum Images {}
 
 	export enum KeydownEvents {
 		Space = "keydown-SPACE",
@@ -31,7 +23,20 @@ export namespace Keys {
 		ArrowDown = "keyup-DOWN",
 	}
 
+	export enum Maps {}
+
 	export enum MouseEvents {
 		PointerDown = "pointerdown",
 	}
+
+	export enum Scenes {
+		Preload = "preload",
+		Game = "game",
+	}
+
+	export enum Sprites {}
+
+	export enum States {}
+
+	export enum TileLayers {}
 }

@@ -1,5 +1,4 @@
 import { Keys } from "../helpers/keys";
-import { Image } from "../helpers/types";
 
 export class GameScene extends Phaser.Scene {
 	public image!: Image;
@@ -9,7 +8,7 @@ export class GameScene extends Phaser.Scene {
 	}
 
 	public create(): void {
-		this.image = this.add.image(400, 300, Keys.Images.Logo);
+		this.image = this.add.image(400, 300, "logo");
 	}
 
 	public update(): void {

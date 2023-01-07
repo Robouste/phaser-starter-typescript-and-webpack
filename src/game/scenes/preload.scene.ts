@@ -6,7 +6,7 @@ export class PreloadScene extends Phaser.Scene {
 	}
 
 	public preload(): void {
-		this.load.image(Keys.Images.Logo, "assets/phaser3-logo.png");
+		this.load.image("logo", "assets/phaser3-logo.png");
 	}
 
 	public create(): void {
