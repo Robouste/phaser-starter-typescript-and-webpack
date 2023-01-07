@@ -29,6 +29,8 @@ export namespace Keys {
 		PointerDown = "pointerdown",
 	}
 
+	export enum Plugins {}
+
 	export enum Scenes {
 		Preload = "preload",
 		Game = "game",
